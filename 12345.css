@@ -76,3 +76,53 @@ main {
 .sidebar {
     display: none;
 }
+
+html:not(.wf-loading) body.is-people-2016 {
+    font-family: HCo Gotham SSm, sans-serif !important;
+}
+
+html:not(.wf-loading) body.is-people-2016 button {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #067ab4;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+}
+
+.site__link-content {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.button--large {
+    background-color: transparent;
+    border-style: solid;
+    border-width: .125em;
+    border-radius: 0;
+    cursor: pointer;
+    font: 700 1em/1 'Noto Serif JP', serif;
+    height: 3.75rem;
+    letter-spacing: .075em;
+    text-transform: uppercase;
+}
+
+.button--large:hover {
+    color: #fff;
+}
