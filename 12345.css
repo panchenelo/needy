@@ -153,3 +153,42 @@ p {
         padding: 0 3.4375em;
     }
 }
+
+body.single .site-header {
+    margin-bottom: 2.5em;
+}
+
+button:hover .hamburger__piece {
+    background-color: #d7d7d7;
+}
+
+button:hover .hamburger__piece--bottom {
+    border-top: 1px solid hsla(0, 0%, 84%, .5);
+}
+
+button:hover .hamburger__piece--middle {
+    border-bottom: 1px solid hsla(0, 0%, 84%, .75);
+    border-top: 1px solid hsla(0, 0%, 84%, .75);
+}
+
+button:hover .hamburger__piece--top {
+    border-bottom: 1px solid hsla(0, 0%, 84%, .5);
+}
+
+.hamburger__piece {
+    display: block;
+    height: .1875rem;
+    width: 100%;
+}
+
+.hamburger__piece--black {
+    background-color: #000;
+}
+
+.people-logo__path-1--fill {
+    fill: #3ab8ec;
+}
+
+.people-logo__path-2--outline {
+    fill: #fff;
+}
