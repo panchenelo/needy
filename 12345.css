@@ -1153,3 +1153,18 @@ margin-left:10px;
     padding: 0 2.5rem;
     position: relative;
 }
+
+/* без ошибки*/
+@media (max-width: 37.5em) {
+    .article-header__timestamp {
+        font-size: .65em;
+    }
+}
+
+
+@media (max-width: 37.5em) {
+    
+    .article-body .p1 {
+        padding: 15px 2.5rem;
+    }
+}
