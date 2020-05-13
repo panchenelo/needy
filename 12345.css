@@ -192,3 +192,111 @@ button:hover .hamburger__piece--top {
 .people-logo__path-2--outline {
     fill: #fff;
 }
+
+a:active .svg__circle,
+a:hover .svg__circle {
+    fill: #fff;
+}
+
+a:active .svg__path--facebook,
+a:hover .svg__path--facebook {
+    fill: #3b5998;
+}
+
+a:active .svg__path--google-plus,
+a:hover .svg__path--google-plus {
+    fill: #dc4e41;
+}
+
+a:active .svg__path--instagram,
+a:hover .svg__path--instagram {
+    fill: #115789;
+}
+
+a:active .svg__path--pinterest,
+a:hover .svg__path--pinterest {
+    fill: #bd081c;
+}
+
+a:active .svg__path--snapchat,
+a:hover .svg__path--snapchat {
+    fill: #fffc00;
+}
+
+a:active .svg__path--snapchat--inner,
+a:hover .svg__path--snapchat--inner {
+    fill: #fff;
+    opacity: 1;
+    stroke: #000;
+    stroke-width: .625em;
+}
+
+a:active .svg__path--twitter,
+a:hover .svg__path--twitter {
+    fill: #55acee;
+}
+
+a:active .svg__path--tumblr,
+a:hover .svg__path--tumblr {
+    fill: #37475d;
+}
+
+a:active .svg__path--wishbone,
+a:hover .svg__path--wishbone {
+    fill: #f15c68;
+}
+
+a:active .svg__path--youtube,
+a:hover .svg__path--youtube {
+    fill: #cd201f;
+}
+
+@media (min-width: 64.0625em) {
+    .article-single__content {
+        flex: 0 0 auto;
+        width: calc(99.99% * 2/3 - 0.625em);
+        float: left
+    }
+
+    .article-single__content:nth-child(1n) {
+        margin-right: 1.875em;
+        margin-left: 0
+    }
+
+    .article-single__content:last-child {
+        margin-right: 0
+    }
+
+    .article-single__content:nth-child(0n) {
+        margin-right: 0;
+        margin-left: auto
+    }
+}
+
+.article-header {
+    margin: 0 2.25rem 2.875em;
+    font-family: 'Noto Serif', serif;
+}
+
+@media (min-width: 64.0625em) {
+    .article-header {
+        flex: 0 0 auto;
+        width: calc(99.99% * 2/3 - 0.625em);
+        float: left;
+        margin: 0;
+    }
+
+    .article-header:nth-child(1n) {
+        margin-right: 1.875em;
+        margin-left: 0;
+    }
+
+    .article-header:last-child {
+        margin-right: 0;
+    }
+
+    .article-header:nth-child(0n) {
+        margin-right: 0;
+        margin-left: auto;
+    }
+}
