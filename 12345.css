@@ -632,7 +632,7 @@ li.share-twitter:hover {
 .article-body__inner > :last-child:after {
     content: '';
     display: inline-block;
-    height: .5em;
+    /*height: .5em;*/
     margin-left: .33333em;
     width: .5em;
 }
@@ -665,7 +665,11 @@ li.share-twitter:hover {
     width: 100vw;
 }
 
-
+@media (min-width: 37.5625em) {
+    .article-body__show-full {
+        display: none;
+    }
+}
 
 .article-body__show-full button {
     border: 0;
