@@ -1119,3 +1119,37 @@ margin-left:10px;
     }
 }
 
+/* без моб */
+#sharing_email input[type=submit] {
+    vertical-align: middle;
+}
+
+#sharing_email input[type=submit] {
+    background-color: transparent;
+    border: 1px solid #a3a3a3;
+    cursor: pointer;
+    font: 700 .6875em/1 'Noto Serif JP', serif;
+    padding: .25em .5em;
+    text-transform: uppercase;
+}
+
+#sharing_email label {
+    font-size: .75em;
+}
+
+#sharing_email label {
+    display: block;
+}
+
+.article-header__timestamp {
+    color: #959595;
+    font: 400 .75em/1 'Noto Serif JP', serif;
+    letter-spacing: .02em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.article-body {
+    padding: 0 2.5rem;
+    position: relative;
+}
