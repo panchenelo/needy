@@ -431,3 +431,95 @@ a:hover .svg__path--youtube {
 .article-header__share .share-email {
     margin-right: 0;
 }
+
+/* headlines with lines */
+.decorated {
+    overflow: hidden;
+    text-align: center;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 700;
+
+}
+
+.decorated > span {
+    position: relative;
+    display: inline-block;
+}
+
+.decorated > span:before,
+.decorated > span:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid;
+    width: 592px;
+    /* half of limiter */
+    margin: 0 20px;
+}
+
+.decorated > span:before {
+    right: 100%;
+}
+
+.decorated > span:after {
+    left: 100%;
+}
+
+a.share-email:before {
+    background-image: url('../9cbfd83a12313d6395abc0bba9ecf1dd.html');
+}
+
+a.share-facebook:before {
+    background-image: url('../1d5df33295cbdc53171d9ec528c66ea4.html');
+    margin-right: 0;
+}
+
+a.share-twitter:before {
+    background-image: url('../a38bbbeb2665cfa4e416b10f4d79e27c.html');
+    margin-top: .1em;
+}
+
+li.share-end {
+    display: none;
+}
+
+li.share-email {
+    background-color: #27c4ff;
+}
+
+li.share-email:hover {
+    background-color: #23b0e6;
+}
+
+li.share-facebook {
+    background-color: #3b5998;
+}
+
+li.share-facebook:hover {
+    background-color: #355089;
+}
+
+li.share-twitter {
+    background-color: #55acee;
+}
+
+li.share-twitter:hover {
+    background-color: #4d9bd6;
+}
+
+#sharing_email {
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .2);
+    padding: 15px;
+    position: absolute;
+    text-align: left;
+    width: 342px;
+}
+
+@media (max-width: 64em) {
+    #sharing_email {
+        left: auto !important;
+        right: 0;
+    }
+}
