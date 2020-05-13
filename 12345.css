@@ -7,3 +7,45 @@ html {
         margin-top: 0 !important;
     }
 }
+
+*,
+:after,
+:before {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    position: relative;
+}
+
+body,
+html {
+    overflow-x: hidden;
+}
+
+:focus {
+    outline: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, .2);
+}
+
+
+main {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 93.75em;
+    position: relative;
+}
+
+@media (min-width: 37.5625em) {
+    main {
+        padding: 0 4.125em;
+    }
+}
+
+@media (min-width: 64.0625em) {
+    main {
+        padding: 0 3.4375em;
+    }
+}
