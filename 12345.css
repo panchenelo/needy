@@ -1020,3 +1020,56 @@ margin-left:10px;
     }
 }
 
+/* проверка */
+
+#sharing_email input[type=submit] {
+    vertical-align: middle;
+}
+
+#sharing_email input[type=submit] {
+    background-color: transparent;
+    border: 1px solid #a3a3a3;
+    cursor: pointer;
+    font: 700 .6875em/1 'Noto Serif JP', serif;
+    padding: .25em .5em;
+    text-transform: uppercase;
+}
+
+#sharing_email label {
+    font-size: .75em;
+}
+
+#sharing_email label {
+    display: block;
+}
+
+.article-header__timestamp {
+    color: #959595;
+    font: 400 .75em/1 'Noto Serif JP', serif;
+    letter-spacing: .02em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media (max-width: 37.5em) {
+    .article-header__timestamp {
+        font-size: .65em;
+    }
+}
+
+.article-body {
+    padding: 0 2.5rem;
+    position: relative;
+}
+
+@media (max-width: 37.5em) {
+    .article-body {
+        padding: 0 !important;
+        max-height: 37.5em;
+        overflow: hidden;
+    }
+
+    .article-body .p1 {
+        padding: 15px 2.5rem;
+    }
+}
