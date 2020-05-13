@@ -665,11 +665,7 @@ li.share-twitter:hover {
     width: 100vw;
 }
 
-@media (min-width: 37.5625em) {
-    .article-body__show-full {
-        display: none;
-    }
-}
+
 
 .article-body__show-full button {
     border: 0;
